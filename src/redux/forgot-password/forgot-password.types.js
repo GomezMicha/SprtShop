@@ -1,0 +1,4 @@
+export const ForgotPasswordActionTypes = {
+  TOGGLE_MODAL_HIDDEN: "TOGGLE_MODAL_HIDDEN",
+  SHOW_RESET_EMAIL_SENT: "SHOW_RESET_EMAIL_SENT",
+};
