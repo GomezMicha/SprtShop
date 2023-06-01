@@ -18,7 +18,7 @@ export const signInWithGoogle = () =>
       console.log({ errorCode: errorCode, errorMessage: errorMessage });
     });
 
-// Initialize auth provder Google and custom parameters.
+// Initialize auth provder Github and custom parameters.
 const gitHubProvider = new GithubAuthProvider(auth);
 gitHubProvider.setCustomParameters({ allow_signin: "false" });
 
